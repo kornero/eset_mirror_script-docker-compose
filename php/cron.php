@@ -6,6 +6,7 @@ PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 
 # Удаление базы
 1 1 * * 1 rm -rf /nod32-base/v*
+1 1 * * 1 rm -rf /nod32-base/ep*
 
 # Запуск с задержкой скрипта обновления
 12 */6 * * * /bin/sleep `/usr/bin/od -An -N1 -i /dev/urandom`; /usr/local/bin/php /eset_mirror_script/update.php

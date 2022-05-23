@@ -10,7 +10,7 @@ services:
       dockerfile: Dockerfile
 
     ports:
-      - ${IP_PORT}:80/tcp
+      - ${IP_PORT}:1222/tcp
     volumes:
         - "/etc/timezone:/etc/timezone:ro"
         - ${DATA_PATH}/nod32-base:/eset_mirror_script/www:ro
