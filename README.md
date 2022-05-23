@@ -19,6 +19,17 @@ IP_PORT=192.168.0.100:1222
 DATA_PATH=/opt/eset
 ```
 
+## Референсы:
+```
+https://forum.lissyara.su/soft-f3/shustryj-skript-skript-zerkala-nod32-t42296-s1500.html
+http://forum.ru-board.com/topic.cgi?forum=35&topic=52596#1
+
+До этого использовал:
+http://upnod.duckdns.org (ESS/EAV v4-5-6-7-8-9 рус eng)
+который update.nod (задан в hosts)
+Login: ru-board
+Passwd: PTjPEHyG5vej
+```
 
 # Описание скопировано с других репо:
 
