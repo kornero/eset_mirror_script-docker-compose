@@ -13,6 +13,10 @@ docker compose up --build -d --remove-orphans --force-recreate
 ```
 ### Выключение:
 `docker compose down --remove-orphans`
+### Логи:
+`docker  logs -f eset-nod32_nginx`
+### Консоль:
+`docker exec -i -t eset-nod32_nginx /bin/sh`
 
 ## Мои фиксы: 
 ### Пока включил версии 6,8 для вин7 и 14 для вин10.
