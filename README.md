@@ -14,7 +14,7 @@ docker compose up --build -d --remove-orphans --force-recreate
 ### Выключение:
 `docker compose down --remove-orphans`
 ### Логи:
-`docker  logs -f eset-nod32_nginx`
+`docker logs -f eset-nod32_nginx`
 ### Консоль:
 `docker exec -i -t eset-nod32_nginx /bin/sh`
 
