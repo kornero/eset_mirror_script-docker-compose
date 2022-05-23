@@ -8,7 +8,8 @@ git clone https://github.com/kornero/eset_mirror_script-docker-compose.git
 cd eset_mirror_script-docker-compose/
 cp .env-default .env
 cp nginx/htpasswd-default nginx/htpasswd
-docker-compose up --build -d --remove-orphans --force-recreate
+docker compose up --build -d --remove-orphans --force-recreate
+#либо для старого докера через дефис: docker-compose up --build -d --remove-orphans --force-recreate
 ```
 ### Выключение:
 `docker compose down --remove-orphans`
