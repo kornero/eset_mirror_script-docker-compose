@@ -1,7 +1,20 @@
 # eset_mirror_script-docker-compose  
 ESET NOD32 UPDATE SCRIPT in docker-compose (nginx+php)  
 
-## Пока включил версии 6,8 для вин7 и 14 для вин10.
+## How to:
+### Запуск
+```
+git clone https://github.com/ErshovSergey/eset_mirror_script-docker-compose.git
+cd eset_mirror_script-docker-compose/
+cp .env-default .env
+cp nginx/htpasswd-default nginx/htpasswd
+docker-compose up --build -d --remove-orphans --force-recreate
+```
+### Выключение:
+`docker compose down --remove-orphans`
+
+## Мои фиксы: 
+### Пока включил версии 6,8 для вин7 и 14 для вин10.
 ```
 http://forum.ru-board.com/topic.cgi?forum=35&topic=52635&start=5160#18
 
@@ -12,14 +25,12 @@ http://forum.ru-board.com/topic.cgi?forum=35&topic=52635&start=5160#18
 4. Если установлена Windows 11 - оптимальный выбор из домашних версий - это Eset Antivirus (EAV,EIS,ESSP) не ниже v.15, а из бизнес-версий - это Eset Endpoint Antivirus (EEA, EES) не ниже v.9. Нет смысла устанавливать что-то ниже, если нет специфических единичных причин. Эти версии наиболее доработаны под данную операционную систему.
 5. Если установлена серверная Windows, не культурно устанавливать на неё домашние версии антивируса, если нет специфических единичных причин. Для серверной версии Windows имеется своя линейка антивируса ESET File Security (ESET Server Security), желательно устанавливать версию  не ниже v.6.
 ```
-
-## Отключил пароль и прописал:
+### Отключил пароль и прописал:
 ```
 IP_PORT=192.168.0.100:1222
 DATA_PATH=/opt/eset
 ```
-
-## Референсы:
+### Референсы:
 ```
 https://forum.lissyara.su/soft-f3/shustryj-skript-skript-zerkala-nod32-t42296-s1500.html
 http://forum.ru-board.com/topic.cgi?forum=35&topic=52596#1
