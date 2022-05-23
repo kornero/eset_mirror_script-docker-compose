@@ -4,7 +4,7 @@ ESET NOD32 UPDATE SCRIPT in docker-compose (nginx+php)
 ## How to:
 ### Запуск
 ```
-git clone https://github.com/ErshovSergey/eset_mirror_script-docker-compose.git
+git clone https://github.com/kornero/eset_mirror_script-docker-compose.git
 cd eset_mirror_script-docker-compose/
 cp .env-default .env
 cp nginx/htpasswd-default nginx/htpasswd
