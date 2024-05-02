@@ -19,7 +19,7 @@ docker compose up --build -d --remove-orphans --force-recreate
 `docker exec -i -t eset-nod32_nginx /bin/sh`
 
 ## Мои фиксы: 
-### Пока включил версии 6,8 для вин7 и 14 для вин10.
+### Пока включил версии 8, 14 для вин10 только для x64.
 ```
 http://forum.ru-board.com/topic.cgi?forum=35&topic=52635&start=5160#18
 
