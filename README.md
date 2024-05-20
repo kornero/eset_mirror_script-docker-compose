@@ -32,7 +32,7 @@ http://forum.ru-board.com/topic.cgi?forum=35&topic=52635&start=5160#18
 ```
 ### Отключил пароль и прописал:
 ```
-IP_PORT=192.168.0.100:1222
+IP_PORT=192.168.0.141:1222
 DATA_PATH=/opt/eset
 ```
 ### Референсы:
